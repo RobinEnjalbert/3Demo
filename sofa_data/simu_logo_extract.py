@@ -33,7 +33,7 @@ if __name__ == '__main__':
         surface_positions.append(root.logo.visual.getObject('ogl').position.array().copy())
         volume_positions.append(root.logo.getObject('state').position.array().copy())
 
-    np.savez('logo.npz',
+    np.savez('data.npz',
              surface_positions=np.array(surface_positions),
              surface_triangles=surface_triangles,
              volume_positions=np.array(volume_positions),
