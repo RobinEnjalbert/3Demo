@@ -1,3 +1,10 @@
+"""
+Second tutorial to learn Vedo basics:
+- update objects
+- add a colormap
+- use widgets (button, slider)
+"""
+
 import numpy as np
 import vedo
 

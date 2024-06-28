@@ -1,3 +1,9 @@
+"""
+Last tutorial to learn Vedo basics:
+- use keyboad callbacks
+- use timer callbacks
+"""
+
 import numpy as np
 import vedo
 
